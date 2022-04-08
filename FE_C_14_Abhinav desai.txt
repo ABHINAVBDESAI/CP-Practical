@@ -1,0 +1,15 @@
+// My first C Program
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World\n");
+    printf("Talk To a Teacher");
+    
+
+    return 0;
+}
+
+
+output:Hello World
+Talk to a Teacher
