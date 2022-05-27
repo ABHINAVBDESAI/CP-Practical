@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+   char strname[30];
+   printf("enter the string\n");
+   scanf("%[^\n]s",strname);
+   printf("the string is %s\n",strname);
+   return 0;
+}
+
+
+
+output:
+the string is talk to a techer
