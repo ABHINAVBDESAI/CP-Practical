@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    FILE *fp;
+    fp=fopen("/home/ttt/Desktop/sample.txt","w");
+    fprintf(fp,"Welcome to spoken tutorial\n");
+    fprintf(fp,"this is an test example\n");
+    fclose(fp);
+    return 0;
+    
+}
+
+
+
+output:
+A.txt file was created on desktop .in which the following message was printed:
+Welcome to spoken tutorial
+this is an test example
